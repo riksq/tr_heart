@@ -40,10 +40,10 @@ export default function Home(props) {
             if (fJson.ok) {
                 window.location.href = fJson.url;
             } else {
-                alert("Попробуйте снова");
+                alert("Try again");
             }
         } else {
-            alert("Попробуйте снова");
+            alert("Try again");
         }
     };
 
