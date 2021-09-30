@@ -49,7 +49,7 @@ export default function Home(props) {
 
     useEffect(() => {
         alert(gtm);
-        TagManager.initialize({ gtmId: "GTM-PTZV39P" });
+         TagManager.initialize({ gtmId: "GTM-PTZV39P" });
         // TagManager.initialize({ gtmId: "GTM-59WP5XJ" });
         // TagManager.initialize({ gtmId: "GTM-K4TGQMH" });
         //if (gtm) {
