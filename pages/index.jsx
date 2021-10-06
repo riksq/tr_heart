@@ -1,6 +1,6 @@
 import Head from "next/head";
 import styles from "../styles/Home.module.css";
-import TagManager from "react-gtm-module";
+//import TagManager from "react-gtm-module";
 import { useEffect } from "react";
 import { useRouter } from "next/router";
 
@@ -47,15 +47,15 @@ export default function Home(props) {
         }
     };
 
-    useEffect(() => {
+   // useEffect(() => {
        // alert(gtm);
         // TagManager.initialize({ gtmId: "GTM-PTZV39P" });
         // TagManager.initialize({ gtmId: "GTM-59WP5XJ" });
-        TagManager.initialize({ gtmId: "GTM-MRC9DW2" });
+       // TagManager.initialize({ gtmId: "GTM-MRC9DW2" });
        // if (gtm) {
           //  TagManager.initialize({ gtmId: gtm });
        // }
-    }, [gtm]);
+   // }, [gtm]);
     return (
         <div className={styles.container}>
             <Head>
