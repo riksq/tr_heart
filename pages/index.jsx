@@ -76,7 +76,7 @@ export default function Home(props) {
                     </h2>
                 </div>
                 <div>
-                    <h3>Click a red button</h3>
+                    <h3>Click a RED button</h3>
                     <div>
                         <button
                             onClick={() => {
@@ -84,7 +84,7 @@ export default function Home(props) {
                             }}
                             style={blackcss}
                         >
-                            Black
+                            BLACK
                         </button>
                     </div>
                     <div>
@@ -94,7 +94,7 @@ export default function Home(props) {
                             }}
                             style={bluecss}
                         >
-                            Blue
+                            BLUE
                         </button>
                     </div>
                     <div>
@@ -104,7 +104,7 @@ export default function Home(props) {
                             }}
                             style={redcss}
                         >
-                            Red
+                            RED
                         </button>
                     </div>
                 </div>
