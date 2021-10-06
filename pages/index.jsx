@@ -7,7 +7,7 @@ import { useRouter } from "next/router";
 export default function Home(props) {
     const router = useRouter();
     const { query } = router;
-    const gtm = query.gtm;
+    //const gtm = query.gtm;
     const blackcss = {
         margin: 10,
         border: "0px",
