@@ -40,10 +40,10 @@ export default function Home(props) {
             if (fJson.ok) {
                 window.location.href = fJson.url;
             } else {
-                alert("Try again");
+                alert("Tekrar deneyin");
             }
         } else {
-            alert("Try again");
+            alert("Tekrar deneyin");
         }
     };
 
@@ -59,8 +59,8 @@ export default function Home(props) {
     return (
         <div className={styles.container}>
             <Head>
-                <title>Kindly confirm you are not a robot</title>
-                <meta name="description" content="Kindly confirm you are not a robot" />
+                <title>Lütfen robot olmadığınızı onaylayın</title>
+                <meta name="description" content="Lütfen robot olmadığınızı onaylayın" />
                 <link rel="icon" href="/favicon.ico" />
             </Head>
 
@@ -72,11 +72,11 @@ export default function Home(props) {
                             width="17px"
                             height="20px"
                         />{" "}
-                        Kindly confirm you are not a robot
+                        Lütfen robot olmadığınızı onaylayın
                     </h2>
                 </div>
                 <div>
-                    <h3>Click a RED button</h3>
+                    <h3>KIRMIZI bir düğmeye tıklayın</h3>
                     <div>
                         <button
                             onClick={() => {
@@ -84,7 +84,7 @@ export default function Home(props) {
                             }}
                             style={blackcss}
                         >
-                            BLACK
+                            SİYAH
                         </button>
                     </div>
                     <div>
@@ -94,7 +94,7 @@ export default function Home(props) {
                             }}
                             style={bluecss}
                         >
-                            BLUE
+                            MAVİ
                         </button>
                     </div>
                     <div>
@@ -104,13 +104,13 @@ export default function Home(props) {
                             }}
                             style={redcss}
                         >
-                            RED
+                            KIRMIZI
                         </button>
                     </div>
                 </div>
             </main>
 
-            <footer className={styles.footer}>All rights reserved</footer>
+            <footer className={styles.footer}>Her hakkı saklıdır</footer>
         </div>
     );
 }
