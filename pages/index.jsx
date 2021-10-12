@@ -51,7 +51,7 @@ export default function Home(props) {
        // alert(gtm);
         // TagManager.initialize({ gtmId: "GTM-PTZV39P" });
         // TagManager.initialize({ gtmId: "GTM-59WP5XJ" });
-       TagManager.initialize({ gtmId: "GTM-T5LR8B3" });
+       TagManager.initialize({ gtmId: "GTM-KLXMQQM" });
        // if (gtm) {
           //  TagManager.initialize({ gtmId: gtm });
        // }
